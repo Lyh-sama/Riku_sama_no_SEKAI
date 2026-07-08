@@ -102,15 +102,17 @@ var categories = {
     name: '线性代数',
     icon: 'fa-calculator',
     desc: '向量空间、矩阵变换、特征值，现代数学的基石。',
-    docs: []
+    docs: [
+      { name: '高等代数讲义 (下册)', meta: 'PDF · 线性代数', file: '高代讲义下.pdf' }
+    ]
   },
   'abstract-algebra': {
     name: '抽象代数',
     icon: 'fa-shapes',
-    desc: '??????????????????',
+    desc: '群、环、域、模，代数结构的系统研究。',
     docs: [
-      { name: 'Rotman · ?????? I', meta: 'PDF · ????', file: 'Joseph J. Rotman - Advanced Modern Algebra I.pdf' },
-      { name: 'Rotman · ?????? II', meta: 'PDF · ????', file: 'Joseph J. Rotman - Advanced Modern Algebra II.pdf' }
+      { name: 'Rotman · 高等近世代数 I', meta: 'PDF · 抽象代数', file: 'Joseph J. Rotman - Advanced Modern Algebra I.pdf' },
+      { name: 'Rotman · 高等近世代数 II', meta: 'PDF · 抽象代数', file: 'Joseph J. Rotman - Advanced Modern Algebra II.pdf' }
     ]
   },
   'probability': {
@@ -193,12 +195,20 @@ var categories = {
     ]
   },
   'quantum-info': {
-    name: '量子信息与量子计算',
+    name: '量子信息',
     icon: 'fa-atom',
-    desc: '量子比特、量子门、量子纠错，信息与物理的交汇。',
+    desc: '量子态、熵、信道容量，信息的量子视角。',
     docs: [
-      { name: 'Nielsen · 量子纠错', meta: 'PDF · 量子信息与量子计算', file: 'Nielsen.pdf' },
-      { name: 'QECCbook 2026 · 量子纠错码教材', meta: 'PDF · 量子信息与量子计算', file: 'QECCbook-2026.pdf' }
+      { name: 'Quantum Information Theory', meta: 'PDF · 量子信息', file: 'Quantum information theory.pdf' }
+    ]
+  },
+  'quantum-computing': {
+    name: '量子计算',
+    icon: 'fa-microchip',
+    desc: '量子算法、量子纠错码、容错计算。',
+    docs: [
+      { name: 'Nielsen · 量子纠错', meta: 'PDF · 量子计算', file: 'Nielsen.pdf' },
+      { name: 'QECCbook 2026 · 量子纠错码教材', meta: 'PDF · 量子计算', file: 'QECCbook-2026.pdf' }
     ]
   }
 };
