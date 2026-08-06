@@ -133,7 +133,7 @@ sections.forEach(function(sec){
         html += '</div>';
         html += '<div class="folder-body"><div class="folder-docs">';
         d.docs.forEach(function(sub){
-          html += '<a href="../' + sub.file + '" class="folder-doc-row" target="_blank">';
+          html += '<a href="' + sub.file + '" class="folder-doc-row" target="_blank">';
           html += '<span class="folder-doc-name">' + sub.name + '</span>';
           html += '</a>';
         });
@@ -141,7 +141,7 @@ sections.forEach(function(sec){
         html += '</div>';
       } else {
         total++;
-        html += '<a href="../' + d.file + '" class="doc-card" target="_blank">';
+        html += '<a href="' + d.file + '" class="doc-card" target="_blank">';
         html += '<div class="doc-icon"><i class="fa-solid fa-file-pdf"></i></div>';
         html += '<div class="doc-info"><div class="doc-name">' + d.name + '</div><div class="doc-meta">' + d.meta + '</div></div>';
         html += '<span class="doc-dl"><i class="fa-solid fa-download"></i></span>';
